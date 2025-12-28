@@ -1,0 +1,39 @@
+# Starter docker-compose for local development
+# Extend this file as needed for your solution
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: common
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: form_builder
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  mongodb:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  # TODO: Add your backend service
+  # backend:
+  #   build: .
+  #   ports:
+  #     - "3000:3000"
+  #   environment:
+  #     DATABASE_URL: postgresql://common:password@postgres:5432/form_builder
+  #     MONGODB_URL: mongodb://mongodb:27017
+  #     GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+  #     GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+  #   depends_on:
+  #     - postgres
+  #     - mongodb
+
+volumes:
+  postgres_data:
+  mongo_data:
