@@ -8,14 +8,14 @@
 
 ## Phases
 
-| Phase                                                 | Focus                                  | Required |
-| ----------------------------------------------------- | -------------------------------------- | -------- |
-| [01 - Foundation](./docs/assignment/01-foundation.md) | Google OAuth, databases, multi-tenancy | Yes      |
-| [02 - Forms](./docs/assignment/02-forms.md)           | Form CRUD, schema design               | Yes      |
-| [03 - Responses](./docs/assignment/03-responses.md)   | Submission, validation, storage        | Yes      |
-| [04 - Frontend](./docs/assignment/04-frontend.md)     | Dynamic form rendering                 | Yes      |
-| [05 - Evaluation](./docs/assignment/05-evaluation.md) | Assessment criteria                    | -        |
-| [06 - Optional](./docs/assignment/06-optional-admin-ui.md)     | Admin UI (login, forms, responses)         | No       |
+| Phase                                                      | Focus                                  | Required |
+| ---------------------------------------------------------- | -------------------------------------- | -------- |
+| [01 - Foundation](./docs/assignment/01-foundation.md)      | Google OAuth, databases, multi-tenancy | Yes      |
+| [02 - Forms](./docs/assignment/02-forms.md)                | Form CRUD, schema design               | Yes      |
+| [03 - Responses](./docs/assignment/03-responses.md)        | Submission, validation, storage        | Yes      |
+| [04 - Frontend](./docs/assignment/04-frontend.md)          | Dynamic form rendering                 | Yes      |
+| [05 - Evaluation](./docs/assignment/05-evaluation.md)      | Assessment criteria                    | -        |
+| [06 - Optional](./docs/assignment/06-optional-admin-ui.md) | Admin UI (login, forms, responses)     | No       |
 
 ## Starter Setup
 
@@ -45,6 +45,8 @@ You **must** use agentic AI coding tools (Claude Code, Cursor, Antigravity, Copi
 Document your AI workflow in your README.
 
 ## Submission
+
+You can make your submission here on this form: https://forms.gle/BH7aVfdjjsXWvNy17
 
 1. Create a **private** GitHub repository
 2. Add **@theinternetfolksbot** as a collaborator

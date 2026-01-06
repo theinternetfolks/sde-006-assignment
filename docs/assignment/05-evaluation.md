@@ -2,6 +2,8 @@
 
 How your submission will be assessed.
 
+You can make your submission here on this form: https://forms.gle/BH7aVfdjjsXWvNy17
+
 ---
 
 ## Tiers
@@ -66,21 +68,21 @@ These do not affect Pass/Good/Excellent tiers but demonstrate additional depth:
 
 These will negatively impact your assessment:
 
-| Anti-Pattern | Why It's a Problem |
-|--------------|-------------------|
-| Single MongoDB collection for all responses | Violates architecture constraint |
-| Missing or superficial schema validation | Core requirement not met |
-| Tenant ID leaking across queries | Security failure |
-| Users can access other orgs' data | Authorization failure |
-| Over-engineered abstractions | Unnecessary complexity |
-| Brittle frontend that breaks on schema changes | Doesn't prove schema works |
-| No error handling for database operations | Production-readiness concern |
-| Hardcoded configuration | DevOps/deployment concern |
-| Giant files with mixed concerns | Code organization issue |
-| No agentic AI documentation | Requirement not followed |
-| Using ChatGPT instead of agentic tools | Requirement not followed |
-| Messy git history ("fix", "wip", "asdf") | Shows lack of discipline |
-| Not using required libraries | Requirement not followed |
+| Anti-Pattern                                   | Why It's a Problem               |
+| ---------------------------------------------- | -------------------------------- |
+| Single MongoDB collection for all responses    | Violates architecture constraint |
+| Missing or superficial schema validation       | Core requirement not met         |
+| Tenant ID leaking across queries               | Security failure                 |
+| Users can access other orgs' data              | Authorization failure            |
+| Over-engineered abstractions                   | Unnecessary complexity           |
+| Brittle frontend that breaks on schema changes | Doesn't prove schema works       |
+| No error handling for database operations      | Production-readiness concern     |
+| Hardcoded configuration                        | DevOps/deployment concern        |
+| Giant files with mixed concerns                | Code organization issue          |
+| No agentic AI documentation                    | Requirement not followed         |
+| Using ChatGPT instead of agentic tools         | Requirement not followed         |
+| Messy git history ("fix", "wip", "asdf")       | Shows lack of discipline         |
+| Not using required libraries                   | Requirement not followed         |
 
 ---
 
