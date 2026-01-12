@@ -1,4 +1,4 @@
-# SDE-006 - Senior Engineer Assignment
+# SDE-006 - Backend Engineer Assignment
 
 ## Getting Started
 
