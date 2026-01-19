@@ -118,7 +118,7 @@ Write **more prompts/instructions** and **less manual code**. We want to see how
 
 ## Submission
 
-You can make your submission here on this form: https://forms.gle/BH7aVfdjjsXWvNy17
+You can make your submission here on this form: https://forms.gle/yuGeBqWDJtjUwizt9
 
 ### Repository Setup
 
